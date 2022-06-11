@@ -14,7 +14,6 @@ def main():
         n = int(input().strip())
         result = 1
         for x in range(2, n + 1):
-            print(result, x)
             result = math.lcm(result, x)
         print(result)
 
