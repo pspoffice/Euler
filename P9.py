@@ -13,7 +13,6 @@ def main():
         d = -1
         n = int(input().strip())
         for a in range(3, (n // 3) + 1):
-            print(a, end=' ')
             b = ((2 * a * n) - (n ** 2))
             b //= ((2 * a) - (2 * n))
             c = n - a - b
