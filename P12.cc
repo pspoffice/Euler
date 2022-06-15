@@ -46,6 +46,8 @@ auto Pre(const int n) -> void {
   for (const auto &x : q) {
     result.push_back(Factor(x));
   }
+  result[0] = 0;
+  result[1] = 1;
 }
 
 auto Solve() -> void {
@@ -63,8 +65,6 @@ auto main() -> int {
   int t;
   cin >> t;
   Pre(45000);
-  result[0] = 0;
-  result[1] = 1;
   while (t--) Solve();
   return 0;
 }
