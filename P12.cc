@@ -1,6 +1,6 @@
 // Priyank S Patel
 
-// https://projecteuler.net/problem=11
+// https://projecteuler.net/problem=12
 
 #include <iostream>
 #include <map>
